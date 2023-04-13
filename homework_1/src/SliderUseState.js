@@ -1,7 +1,7 @@
-import { Component, useState } from 'react';
-import { Container } from 'react-bootstrap';
+import { Component, useState } from "react";
+import { Container } from "react-bootstrap";
 
-import './App.css';
+import "./App.css";
 
 // class SliderUseState extends Component {
 //   constructor(props) {
@@ -64,7 +64,7 @@ import './App.css';
 // }
 
 const calcValue = () => {
-  console.log('random');
+  console.log("random");
   return Math.random() * (50 - 1) + 1;
 };
 
@@ -113,7 +113,7 @@ const SliderUseState = (props) => {
           Active slide {slide} <br />
           {/* Active slide {state.slide} <br /> */}
           {/* {this.state.autoplay ? 'auto' : null} */}
-          {autoplay ? 'auto' : null}
+          {autoplay ? "auto" : null}
           {/* {state.autoplay ? 'auto' : null} */}
         </div>
         <div className="buttons mt-3">

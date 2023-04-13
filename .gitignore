@@ -1,6 +1,7 @@
 # dependencies
 /node_modules
 /homeworks_1/node_modules
+/homeworks_2/node_modules
 /.pnp
 .pnp.js
 
